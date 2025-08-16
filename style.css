@@ -12,6 +12,29 @@ body {
   color: #333;
 }
 
+
+.typing {
+  display: inline-block;
+  border-right: 3px solid #ffeb3b;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  font-size: 1.5rem;
+  animation: typing 4s steps(30, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+
+
 /* Navbar */
 header {
   background: #222;
@@ -97,10 +120,10 @@ section {
 }
 
 .skill-box span {
-  background: #0072ff;
+  background: #48494a;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 8px 20px;
+  border-radius: 10px;
 }
 
 /* Projects */
