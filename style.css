@@ -71,11 +71,27 @@ nav .nav-links a:hover {
 .hero {
   height: 90vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #38464a, #5d6876);
   color: #fff;
   text-align: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row; /* change to row if you want image and text side by side */
+  align-items: center;
+}
+
+
+.profile-img {
+  width: 200px;
+  height: 225px;
+  border-radius: 50%; /* makes the image circular */
+  margin-right: 20px; /* space between image and text */
+}
+.img1{
+  margin: 20px;
 }
 
 .hero h2 span {
